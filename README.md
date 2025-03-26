@@ -29,6 +29,8 @@ mkdir videos
 
 ## 运行镜像
 
+### WSL (Windows Subsystem for Linux)
+
 ```bash
 modelName=best.pt videoName=test.mp4 && \
 docker run -it --rm \
@@ -50,3 +52,4 @@ hexchip/ultralytics-yolo-infer-video \
 --videoPath ./videos/${videoName}
 ```
 
+Linux 和 Mac 系统暂时没有涉及，欢迎提交贡献
